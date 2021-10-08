@@ -1,0 +1,20 @@
+{
+  "name": "rent",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "nodemon": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.9",
+    "nodemon": "^2.0.13",
+    "save": "^2.4.0",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
