@@ -1,10 +1,9 @@
 const express = require('express')
+const {getlogin, postlogin } = require('../../controller/login.ctrl.js')
+
 
 const router=express.Router()
 router.route('/login')
-.get((req, res) => {
-    res.send("login details")
-}).post( (req, res) => {
-    res.send("login details")
-})
+.get(getlogin)
+.post(postlogin)
 module.exports= router
